@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: o;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border: none;
+    border-radius: 2em;
+    height: 90vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    /* margin-top: 3em; */
+    /* padding-top: 1em; */
+    background-color: rgb(180, 176, 176);
+
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.one, .two, .three, .four, .five{ 
+    margin-right: 14em;
+    display: flex;
+    justify-content:left;
+    gap: 2em;
+    /* margin-left: em; */
+    
+}
+input{
+    height: 5vh;
+    width: 14vw;
+    font-family: "Playfair Display", serif;
+    border-radius: 2em;
+    border: none;
+}
+
+label{
+    font-family: "Playfair Display", serif bold;
+    font-size: larger;
+}
+
+button{
+    border: none;
+    border-radius: 2em;
+    height: 7vh;
+    width: 7vw;
+    font-family: "Playfair Display", serif;
+    font-size: medium;
+    background-color:  #07484A;
+}

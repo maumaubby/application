@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    border: none;
+    border-radius: 2em;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 1em;
+    background-color: rgb(180, 176, 176);
+}
+
+input{
+    height: 6vh;
+    width: 26vw;
+    font-family: "Playfair Display", serif;
+    border-radius: 2em;
+    border: none;
+}
+
+label{
+    font-family: "Playfair Display", serif bold;
+    font-size: larger;
+}
+
+button{
+    border: none;
+    border-radius: 2em;
+    height: 7vh;
+    width: 7vw;
+    font-family: "Playfair Display", serif;
+    font-size: medium;
+    background-color:  #07484A;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
